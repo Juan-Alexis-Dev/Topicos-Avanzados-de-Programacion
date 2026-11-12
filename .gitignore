@@ -1,14 +1,31 @@
-# Binarios
-*.dll
+# Carpetas de compilación de Visual Studio
+.vs/
+x64/
+x86/
+Debug/
+Release/
+*/x64/
+*/Debug/
+*.tlog/
+
+# Binarios y archivos intermedios
 *.exe
+*.dll
 *.obj
 *.pdb
 *.ilk
 *.idb
+*.ipch
+*.lastbuildstate
+*.recipe
+*.metagen
+*.cache
+*.log
 
-# Visual Studio
-/.vs/
-/x64/
-/Debug/
-/Release/
-.vs/
+# Configuración personal de Visual Studio
+*.user
+*.suo
+*.vsidx
+
+# Documentación generada (se regenera con Doxygen)
+doxygen_output/
